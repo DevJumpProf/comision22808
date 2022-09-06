@@ -1,0 +1,57 @@
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    width: 80%;
+    margin: 10px auto
+}
+
+section article{
+    width: 100% ;  
+
+}
+
+section article img {
+    width: 100%;
+}
+
+@media (min-width: 426px){
+    body{
+        background-color: aquamarine;
+    }
+    section article{
+        width: 40% ;  
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+    }
+    section{
+        overflow: hidden;
+    }
+    nav{
+        text-align: center;
+    }
+}
+
+@media (min-width:769px){
+    section article{
+    width: 22% ;  
+    margin-right: 1%;
+    margin-left: 1%;
+    }
+    nav{
+        text-align: right;
+    }
+    body{
+        background-color: brown;
+    }
+}
+
