@@ -18,10 +18,12 @@ Estructurado siguiendo la lógica de programación
 
 
 ## Caracteristicas de Javascript
+
 •	Interpretado (se ejecuta en el navegador)
 Tenemos los lenguajes compilados y los interpretados: Compilados son los que pasan por un compilador y lo convierte a Binario
 
 •	Orientado a Objetos:  en donde sus estructura abarca todos los conceptos ( clases herencias, polimorfismo etc.)
+
 •	Imperativo: todas las introducciones van de línea en línea (Paso a Paso)
 
 •	Case Sensitive (upper and lower case) (Mayusculas y minusculas)
