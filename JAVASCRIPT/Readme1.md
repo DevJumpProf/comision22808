@@ -535,6 +535,7 @@ console.log(diferencia); // undefined
 Podemos ver que la diferencia se establece dentro de la función. La variable dentro de la función solo pertenece dentro de la función.
 
 ## Funciones flecha
+
 funcion flecha, se elimina la palabra function y se coloca la flecha luego de los parentesis
 ejemplos 
 si solamente usamos un parámetro no lleva paréntesis, y si tiene una sola expresión o línea de códigos NO LLEVA LLAVES

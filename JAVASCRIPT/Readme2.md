@@ -15,10 +15,6 @@ En esta lección cubriremos:
 es similar al if, pero sigue preguntando la condición todo el tiempo hasta que la condición sea falsa o demos break
 let numero= 0;
 
-while (numero<10){
- numero++;
- document.write(numero)
-}
 
 //12345678910
 
