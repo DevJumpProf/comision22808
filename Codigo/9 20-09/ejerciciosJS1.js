@@ -124,95 +124,60 @@ const esPositivo = numero => numero === 0 ? document.write(false) : numero > 0 ?
 esPositivo(-1)
 
 
-const agregarSimboloExclamacion=str=>
+function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-document.write (`${str} !`+ "</br>" )
-agregarSimboloExclamacion ("Hola Codo a Codo")
 
-const combinarNombres = (nombre, apellido) =>{
+}
+
+function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Bruce Wayne" -> "Bruce Wayne"
   // Tu código:
-  document.write (`Soy ${nombre} ${apellido}`+ "</br>" )
-};
-combinarNombres("Bruce", "Wayne")
 
-const obtenerSaludo = nombre =>  document.write (`Hola ${nombre}`+ "</br>");obtenerSaludo("martin")
+}
 
+function obtenerSaludo(nombre) {
+  // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
+  // "Martin" -> "Hola Martin!"
+  // Tu código:
 
+}
 
-const obtenerAreaRectangulo= (alto, ancho)=> {
+function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
-document.write(alto*ancho+ "</br>" )
+
 }
-obtenerAreaRectangulo(10,20)
 
-const retornarPerimetro=lado=>
-document.write(lado*4+ "</br>")
-retornarPerimetro(34)
+function retornarPerimetro(lado){
+  //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
+  //Escribe tu código aquí
 
-const areaDelTriangulo = (base, altura)=> {
+}
+
+function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-document.write ((base*altura)/2+ "</br>")
-}
-areaDelTriangulo(10,8)
 
-const deEuroAdolar = euro=>document.write (`el cambio en dolares es ${euro*1.2}`);deEuroAdolar(100)
+
+}
+
+function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. 
   //Escribe un programa que pida al usuario un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
 
+}
+
+
+function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
     //si ingresa una consonante muestre en pantalla dato incorrecto
   //Escribe tu código aquí
 
-const esVocal=letra=>{
-  if(letra.length!=1){
-   alert ("Dato incorrecto ingresaste mas de un caracter")
-  }else if (letra=="a"||letra=="e"||letra=="i"||letra=="o"||letra=="u"){
-    alert (`Efectivamente la letra ${letra} es vocal XD`)
-  }else {
-    alert (`Ingresaste ${letra} NO es vocal :(`)
-  }
-};
-esVocal(prompt("escribe una letra").toLowerCase())
 
-
-
-/* Gabriel Pescio
-let vocales = ["a","e","i","o","u"];
-if (letra.length === 1){
-  for(i=0; i<vocales.length; i++){
-    if (letra.toLowerCase() == vocales[i]){
-      alert("Es vocal.");
-      }}
-    }
-  alert("Dato incorrecto.");
- */
-
-
-/*   Francisco Astudillo
-  const letra = (letraIng) => {
-    let message = (letraIng=='a'||letraIng=='e'||letraIng=='i'||letraIng=='o'||letraIng=='u') ? document.write("¡Es una vocal!") : document.write("¡Es una consonante!");
-  };
-  
-letra (prompt("Ingresa una letra y te digo si es vocal o consonante")); */
-
-/* Yoel Zito */
-/* function esVocal(letra){
-  letra = prompt('Ingrese una letra').toLocaleLowerCase();
-  if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
-    return 'Es vocal';
-  }else if(letra.length > 1){
-    return 'Dato incorrecto';
-  } else{
-    return 'Dato incorrecto';
-  }
 }
-console.log(esVocal()); */

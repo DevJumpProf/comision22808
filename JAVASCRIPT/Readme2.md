@@ -144,7 +144,7 @@ Los bucles `for` tienen una sintaxis única, similar a la instrucción` if`, per
 
 ```javascript
 for (let i = 0                 ; i < 10                 ; i++          ) {
-// | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
+// | Declaramos una variable | Expresión condicional | Incrementamos la variable |
     console.log(i);
 }
 ```

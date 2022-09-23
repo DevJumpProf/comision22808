@@ -127,24 +127,3 @@ function doWhile(numero) {
 
 }
 
-
-// No modificar nada debajo de esta línea
-// --------------------------------
-
-module.exports = {
-  obtenerMayor,
-  mayoriaDeEdad,
-  conection,
-  saludo,
-  colors,
-  esDiezOCinco,
-  estaEnRango,
-  esEntero,
-  fizzBuzz,
-  operadoresLogicos,
-  esPrimo,
-  esVerdadero,
-  tablaDelSeis,
-  tieneTresDigitos,
-  doWhile
-};
