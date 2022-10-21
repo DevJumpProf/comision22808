@@ -130,7 +130,7 @@ Algo que quizás no haya visto antes es el Módulo (`%`), este operador matemát
 
 ## Objetos Globales y métodos
 
-Javascript tiene una serie de objetos integrados para que los usemos. Ya hemos visto, y hemos estado usando, el objeto de console y su método `log`. Otro de estos objetos es `Math`. `Math` tiene varios métodos, al igual que` console` tiene `log`. Para agregar a esto, algunos de nuestros tipos de datos también tienen métodos incorporados.
+Javascript tiene una serie de objetos integrados para que los usemos. Ya hemos visto, y hemos estado usando, el objeto de consoel y su método `log`. Otro de estos objetos es `Math`. `Math` tiene varios métodos, al igual que` console` tiene `log`. Para agregar a esto, algunos de nuestros tipos de datos también tienen métodos incorporados.
 
 ### Math.pow
 
@@ -535,7 +535,6 @@ console.log(diferencia); // undefined
 Podemos ver que la diferencia se establece dentro de la función. La variable dentro de la función solo pertenece dentro de la función.
 
 ## Funciones flecha
-
 funcion flecha, se elimina la palabra function y se coloca la flecha luego de los parentesis
 ejemplos 
 si solamente usamos un parámetro no lleva paréntesis, y si tiene una sola expresión o línea de códigos NO LLEVA LLAVES

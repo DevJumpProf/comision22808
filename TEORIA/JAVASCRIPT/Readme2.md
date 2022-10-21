@@ -15,6 +15,10 @@ En esta lección cubriremos:
 es similar al if, pero sigue preguntando la condición todo el tiempo hasta que la condición sea falsa o demos break
 let numero= 0;
 
+while (numero<10){
+ numero++;
+ document.write(numero)
+}
 
 //12345678910
 
@@ -144,7 +148,7 @@ Los bucles `for` tienen una sintaxis única, similar a la instrucción` if`, per
 
 ```javascript
 for (let i = 0                 ; i < 10                 ; i++          ) {
-// | Declaramos una variable | Expresión condicional | Incrementamos la variable |
+// | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
     console.log(i);
 }
 ```

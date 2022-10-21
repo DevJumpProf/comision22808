@@ -24,12 +24,11 @@ A diferascript; cadena, número, booleano, matriz, función o incluso otro objet
 
 ```javascript
 const usuario = {
-    username: 'juan.perez',
+     username: 'juan.perez',
     password: 'loremipsumpwd123',
     lovesJavascript: true,
     favoriteNumber: 42
-
-    
+  
 };
 ```
 

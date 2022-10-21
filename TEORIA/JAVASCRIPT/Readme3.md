@@ -5,8 +5,8 @@
 En esta lección cubriremos:
 
 * Introducción a los arrays
-* Metodos de Array (ver .MD)
 * Bucles `for` con arrays
+* Metodos de Array (ver .MD)
 
 
 

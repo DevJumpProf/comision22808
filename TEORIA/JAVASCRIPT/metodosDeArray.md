@@ -17,8 +17,10 @@ Callback = Una función callback es aquella que es pasada como argumento a otra 
 
 
 * Metodos de Arrays
+
 .map() : Permite recorre el array y modificar los elements presentes en él, retornando un nuevo array con la misma longitud que el original.
 .map
+
 const nuevoArray = numeros.map (elements  => elements * 10 ); 
 console.log(nuevoArray)
 
@@ -41,17 +43,6 @@ forEach() ejecuta la función callback una vez por cada elemento del array; a di
 .find
 const nuevoArray = numeros.find (element => element > 3);
 console.log (nuevoArray)
-
-.sort() : Ordena los elementos del array y retorna el arreglo ordenado. Los elementos se ordenarán en orden ascendente (de la A a la Z) por defecto.
-.sort
-const descArray = numeros.sort ((a,b)=> a>b ? -1 : 1)
-console.log(descArray)
-
-const AscArray = animales.sort ((a,b) => a > b ? 1 : -1)
-console.log(AscArray)
-
- //A TENER EN CUENTA CON .sort() = los elementos son ordenados convirtiéndolos a strings y comparando la posición del valor Unicode de dichos strings. Por ejemplo, "Cherry" viene antes que "banana"  (porque las mayúsculas van antes que las minúsculas en la codificación Unicode) . En un ordenamiento numérico, 9 está antes que 80, pero dado que los números son convertidos a strings y ordenados según el valor Unicode, el resultado será "80" antes que "9".
-
 
 some() : Itera el array y retorna un booleano si como mínimo uno de los elementos presentes en el array pasa una condición determinada. Recibe un callback que se encargara de preguntar aquello que queremos dentro del array
 .some
