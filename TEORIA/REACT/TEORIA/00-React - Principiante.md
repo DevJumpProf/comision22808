@@ -141,7 +141,7 @@ Un componente es una función o clase que recibe props y devuelve un elemento. U
 }
 ⬆ Volver a índice
 
-¿Cómo crear un componente en React?
+## ¿Cómo crear un componente en React?
 Los componentes en React son funciones o clases que devuelven un elemento de React. Hoy en día lo más recomendado es usar funciones:
 
 function HelloWorld() {
