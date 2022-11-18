@@ -19,10 +19,10 @@ export const getAllBlogs = async (req,res)=>{
 
 export const getBlog = async (req,res)=>{
    try {
-    const blog = await BlogModel.findAll({
+    const blog = await BlogModel.findOne({
         where:{id:req.params.id}
     })
-    res.json(blog[0])
+    res.json(blog)
    } catch (error) {
     res.json({message: error.message})
    } 

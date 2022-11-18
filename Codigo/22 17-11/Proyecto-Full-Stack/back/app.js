@@ -5,10 +5,12 @@ import db from "./database/db.js"
 
 const app = express()
 
+
 app.use(cors())
 app.use (express.json())
  //analiza las solicitudes JSON entrantes y coloca los datos analizados en formato req.body
-app.use("/blogs",blogRoutes)
+
+ app.use("/blogs",blogRoutes)
 
 //base de datos
 try {
