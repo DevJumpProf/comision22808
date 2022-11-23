@@ -324,11 +324,11 @@ Para crear un estado en React usamos el hook useState:
 import { useState } from 'react'
 
 function Counter() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState([])
 
   return (
     <div>
-      <p>Contador: {count}</p>
+      <p>Contador: 3</p>
       <button onClick={() => setCount(count + 1)}>Aumentar</button>
     </div>
   )
