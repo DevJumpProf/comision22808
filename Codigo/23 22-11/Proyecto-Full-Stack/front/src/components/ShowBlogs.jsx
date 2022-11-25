@@ -48,7 +48,7 @@ return (
 <button onClick={()=>deleteBlog(blog.id)} className="btn btn-danger"><i className="fas fa-trash"></i></button>
 </td>
 
-       </tr>
+ </tr>
     ))}
 </tbody>
 </table>
